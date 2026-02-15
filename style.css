@@ -1,0 +1,14 @@
+/* Bottom-right Watermark */
+#watermark {
+    position: fixed;
+    bottom: 12px;
+    right: 16px;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    pointer-events: none;
+    z-index: 50;
+    text-shadow: 0 0 8px rgba(255,255,255,0.25);
+    font-family: 'Courier New', sans-serif;
+}
